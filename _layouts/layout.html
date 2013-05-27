@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="author" content="Christopher Skene"/>
+    <title>{{ page.title }}</title>
+    <link type="text/css" rel="stylesheet" href="/assets/style.css" media="all"/>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1><a href="/">UX Spaces</a></h1>
+        <p>A toolkit for better User Experience development.</p>
+    </header>
+        {% include menu.html %}
+    <section>
+        {{ content }}
+    </section>
+
+    {% include footer.html %}
+</div>
+
+</body>
+</html>
